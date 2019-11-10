@@ -1,0 +1,15 @@
+
+.red-color-shift rect {
+    fill: red;
+    transition: fill 3.5s ease-out;
+}
+
+.yellow-color-shift rect {
+    fill: yellow;
+    transition: fill 3.5s ease-out;
+}
+
+.green-color-shift rect {
+    fill: green;
+    transition: fill 3.5s ease-out;
+}

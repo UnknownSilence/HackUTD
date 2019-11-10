@@ -1,0 +1,857 @@
+[
+    {
+        "id": "1A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "1C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "1D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "1F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "2A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "2C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "2D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "2F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "3A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "3C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "3D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "3F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "4A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "4C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "4D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "4F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "8A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "8B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "8C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "8F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "8E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "8D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "9A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "9B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "9C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "9E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "9D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "10A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "10B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "10C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "10F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "10E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "10D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "11A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "11B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "11C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "11F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "11E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "11D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "12A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "12B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "12C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "12F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "12E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "12D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "13A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "13B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "13C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "13F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "13E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "13D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "14A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "14B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "14C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "14F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "14E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "14D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "15A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "15B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "15C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "15F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "15E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "15D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "16A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "16B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "16C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "16F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "16E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "16D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "17A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "17B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "17C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "17F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "17E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "17D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "18A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "18B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "18C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "18F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "18E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "18D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "19A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "19B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "19C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "19F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "19E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "19D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "20A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "20B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "20C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "20F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "20E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "20D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "21A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "21B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "21C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "21F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "21E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "21D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "22A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "22B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "22C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "22F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "22E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "22D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "23A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "23B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "23C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "23F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "23E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "23D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "24A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "24B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "24C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "24F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "24E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "24D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "25A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "25B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "25C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "25F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "25E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "25D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "26A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "26B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "26C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "26F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "26E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "26D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "27A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "27B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "27C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "27F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "27E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "27D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "28A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "28B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "28C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "28F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "28E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "28D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "29A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "29B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "29C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "29F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "29E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "29D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "30A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "30B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "30C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "30F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "30E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "30D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "31A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "31B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "31C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "31F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "31E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "31D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "32A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "32B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "32C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "32F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "32E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "32D",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "33A",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "33B",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "33C",
+        "status": "free",
+        "type": "aisle"
+    },
+    {
+        "id": "33F",
+        "status": "free",
+        "type": "window"
+    },
+    {
+        "id": "33E",
+        "status": "free",
+        "type": "middle"
+    },
+    {
+        "id": "33D",
+        "status": "free",
+        "type": "aisle"
+    }
+]
