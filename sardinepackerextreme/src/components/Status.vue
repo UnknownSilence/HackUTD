@@ -49,7 +49,11 @@
               color="#FFFFFF"
               height="100%;"
             >
-              <v-img src="../assets/frame.png"></v-img>
+              <v-img
+                max-width="35%"
+                style="margin-left: auto; margin-right: auto;"
+                src="../assets/qrcode (1).svg"
+              ></v-img>
               <br />
               <br />
             </v-card>

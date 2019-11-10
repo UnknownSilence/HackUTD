@@ -2,7 +2,7 @@
   <div>
     <v-card class="ma-5">
       <v-card-text>Begin Boarding</v-card-text>
-      <v-btn @click="boarding" outlined xl class="ma-5">Board All</v-btn>
+      <v-btn @click="boarding" outlined xl class="ma-5">Show Baggage</v-btn>
       <v-btn @click="boardingFC" outlined xl class="ma-5">Board First Class</v-btn>
       <v-btn @click="boardingPriority" outlined xl class="ma-5">Board Priority</v-btn>
       <v-btn @click="boardingGr1" outlined xl class="ma-5">Board Group 1</v-btn>
@@ -1712,7 +1712,6 @@
 import { translate } from "../plugins/animate";
 export default {
   name: "Plane",
-  components: {},
   methods: {
     go() {
       translate(this.$refs.square);
@@ -1777,7 +1776,7 @@ export default {
       }
     },
     boardingGr1() {
-      var boardList = require("");
+      var boardList = require("../assets/Gr1/group1.json");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
@@ -1789,8 +1788,9 @@ export default {
         //alert(seat);
       }
     },
+
     boardingGr2() {
-      var boardList = require("");
+      var boardList = require("../assets/Gr2/group2.json");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
@@ -1803,114 +1803,119 @@ export default {
       }
 
       //alert(seat);
-    }
-  },
-  boardingGr3() {
-    var boardList = require("");
+    },
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+    boardingGr3() {
+      var boardList = require("../assets/Gr3/group3.json");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      //alert(seat);
-    }
-  },
-  boardingGr4() {
-    var boardList = require("");
+        //alert(seat);
+      }
+    },
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
-      //alert(seat);
-    }
-  },
-  boardingGr5() {
-    var boardList = require("");
+    boardingGr4() {
+      var boardList = require("../assets/Gr4/group4.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+        //alert(seat);
+      }
+    },
 
-      //alert(seat);
-    }
-  },
-  boardingGr6() {
-    var boardList = require("");
+    boardingGr5() {
+      var boardList = require("../assets/Gr5/group5.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      //alert(seat);
-    }
-  },
-  boardingGr7() {
-    var boardList = require("");
+        //alert(seat);
+      }
+    },
+    boardingGr6() {
+      var boardList = require("../assets/Gr6/group6.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      //alrt(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+        //alert(seat);
+      }
+    },
 
-      //alert(seat);
-    }
-  },
-  boardingGr8() {
-    var boardList = require("");
+    boardingGr7() {
+      var boardList = require("../assets/Gr7/group7.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
 
-      //alert(seat);
-    }
-  },
-  boardingGr9() {
-    var boardList = require("");
+        //alrt(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
-      //alert(seat);
-    }
-  },
-  boardingGr10() {
-    var boardList = require("");
+        //alert(seat);
+      }
+    },
+    boardingGr8() {
+      var boardList = require("../assets/Gr8/group8.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
-      //alert(seat);
-    }
-  },
-  boardingGr11() {
-    var boardList = require("");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+        //alert(seat);
+      }
+    },
 
-      //alert(seat);
-    }
-  },
-  boardingGr12() {
-    var boardList = require("");
+    boardingGr9() {
+      var boardList = require("../assets/Gr9/group9.json");
 
-    for (var i = 0; i < boardList.length; i++) {
-      var gridItem = this.$refs[boardList[i]];
-      //alert(color);
-      gridItem.classList.add("animated", "shake", "red-color-shift");
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+        //alert(seat);
+      }
+    },
 
-      //alert(seat);
+    boardingGr10() {
+      var boardList = require("../assets/Gr10/group10.json");
+
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+        //alert(seat);
+      }
+    },
+    boardingGr11() {
+      var boardList = require("../assets/Gr11/group11.json");
+
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+
+        //alert(seat);
+      }
+    },
+    boardingGr12() {
+      var boardList = require("../assets/Gr12/group12.json");
+
+      for (var i = 0; i < boardList.length; i++) {
+        var gridItem = this.$refs[boardList[i]];
+        //alert(color);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+
+        //alert(seat);
+      }
     }
   }
 };

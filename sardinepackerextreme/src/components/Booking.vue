@@ -124,11 +124,11 @@
                     text-color="#5FC9F4; color: #5FC9F4;"
                     class="center"
                   >Select Preferred Seating</v-card-title>
-                  <Plane
+                  <Plane2
                     v-if="passengerTierType != 'Economy'"
                     style="display: block; margin-left: auto; margin-right: auto;"
                     class="planeView"
-                  ></Plane>
+                  ></Plane2>
                   <v-select
                     v-else
                     class="my-2"
@@ -171,6 +171,25 @@
                   <br />
                   <br />
                 </form>
+                <v-card
+                  fill-height
+                  justify
+                  class="my-1"
+                  style="text-color: #5FC9F4;"
+                  color="#FFFFFF"
+                  height="100%;"
+                >
+                  <v-btn
+                    @click="$router.push('/RawAmadeus')"
+                    append="icon"
+                    class="ma-1 pa-5"
+                    :style="{left: '50%', transform:'translateX(-50%)'}"
+                    color="#5FC9F4"
+                    min-width="25%"
+                    outlined
+                  >View Amadeus Raw Data</v-btn>
+                  <br />
+                </v-card>
               </v-card>
             </v-flex>
           </v-layout>
@@ -196,10 +215,10 @@ for (var i = 0; i < airportList.length; i++) {
   dropdownAirports.push(obj.name);
 }
 
-import Plane from "./Plane";
+import Plane2 from "./Plane2";
 export default {
   name: "Booking",
-  components: { Plane },
+  components: { Plane2 },
   icons: {
     iconfont: "md"
   },
@@ -207,7 +226,7 @@ export default {
   methods: {
     submit() {
       axios
-        .post("http://d322c545.ngrok.io/dummyJson", {
+        .post("http://2529c5c7.ngrok.io/dummyJson", {
           params: {
             name: this.name,
             email: this.email,
