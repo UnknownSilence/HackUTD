@@ -254,7 +254,7 @@ export default {
     appName: "Journey",
     dense: true,
     airports: dropdownAirports,
-    passengerType: ["Economy", "Preferred/Pre-Boarding", "First Class"],
+    passengerType: ["Economy", "Priority", "First"],
     disabilities: ["None", "Visual", "Auditory", "Wheelchair"],
     languages: ["English", "Espanol"],
     seatTypes: ["Aisle", "Middle", "Row"],
