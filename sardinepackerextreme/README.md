@@ -1,4 +1,4 @@
-# sardinepackerextreme
+# Journey | Travel Solution
 
 ## Project setup
 ```
