@@ -49,7 +49,7 @@
               color="#FFFFFF"
               height="100%;"
             >
-              <v-img src="../assets/logo.png"></v-img>
+              <v-img src="../assets/frame.png"></v-img>
               <br />
               <br />
             </v-card>

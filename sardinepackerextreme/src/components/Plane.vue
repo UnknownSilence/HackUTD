@@ -1754,334 +1754,171 @@ export default {
       }
     },
     boardingFC() {
-      var colorList = require("");
-      var boardList = require("");
+      var boardList = require("../assets/FC/groupfirst.json");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
 
+        //alert(color)
+        gridItem.classList.add("animated", "shake", "red-color-shift");
         //alert(seat);
       }
     },
     boardingPriority() {
-      var colorList = require("");
-      var boardList = require("");
+      var boardList = require("../assets/Priority/group0.json");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
+
         //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
         //alert(seat);
       }
     },
     boardingGr1() {
-      var colorList = require("");
       var boardList = require("");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
+
         //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+
+        gridItem.classList.add("animated", "shake", "red-color-shift");
 
         //alert(seat);
       }
     },
     boardingGr2() {
-      var colorList = require("");
       var boardList = require("");
 
       for (var i = 0; i < boardList.length; i++) {
         var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
+
         //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
 
-        //alert(seat);
+        gridItem.classList.add("animated", "shake", "red-color-shift");
+
+        //alert("error");
       }
-    },
-    boardingGr3() {
-      var colorList = require("");
-      var boardList = require("");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+      //alert(seat);
+    }
+  },
+  boardingGr3() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr4() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+      //alert(seat);
+    }
+  },
+  boardingGr4() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr5() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
+      //alert(seat);
+    }
+  },
+  boardingGr5() {
+    var boardList = require("");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-        //alert(seat);
-      }
-    },
-    boardingGr6() {
-      var colorList = require("");
-      var boardList = require("");
+      //alert(seat);
+    }
+  },
+  boardingGr6() {
+    var boardList = require("");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-        //alert(seat);
-      }
-    },
-    boardingGr7() {
-      var colorList = require("");
-      var boardList = require("");
+      //alert(seat);
+    }
+  },
+  boardingGr7() {
+    var boardList = require("");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
 
-        //alert(seat);
-      }
-    },
-    boardingGr8() {
-      var colorList = require("");
-      var boardList = require("");
+      //alrt(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+      //alert(seat);
+    }
+  },
+  boardingGr8() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr9() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+      //alert(seat);
+    }
+  },
+  boardingGr9() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr10() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
+      //alert(seat);
+    }
+  },
+  boardingGr10() {
+    var boardList = require("");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
+      //alert(seat);
+    }
+  },
+  boardingGr11() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr11() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
+      //alert(seat);
+    }
+  },
+  boardingGr12() {
+    var boardList = require("");
 
-        //alert(seat);
-      }
-    },
-    boardingGr12() {
-      var colorList = require("");
-      var boardList = require("");
+    for (var i = 0; i < boardList.length; i++) {
+      var gridItem = this.$refs[boardList[i]];
+      //alert(color);
+      gridItem.classList.add("animated", "shake", "red-color-shift");
 
-      for (var i = 0; i < boardList.length; i++) {
-        var gridItem = this.$refs[boardList[i]];
-        var color = colorList[i];
-        //alert(color);
-        if (color === "red") {
-          gridItem.classList.add("animated", "shake", "red-color-shift");
-        }
-        if (color === "yellow") {
-          gridItem.classList.add("animated", "shake", "yellow-color-shift");
-        }
-        if (color === "green") {
-          gridItem.classList.add("animated", "shake", "green-color-shift");
-        } else {
-          //alert("error");
-        }
-
-        //alert(seat);
-      }
+      //alert(seat);
     }
   }
+};
 
-  /**
+/**
    * 
    * 
    * var gridItem = this.$refs[list[i]];
       gridItem.classList.add("animated", "shake", "color-shift");
    * */
-};
 </script>
